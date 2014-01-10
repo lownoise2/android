@@ -11,7 +11,7 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="lownoise2/andrroid_build" remote="github" revision="b2aosp" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -292,8 +292,8 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+<!--  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" /> -->
+<!--  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" /> -->
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -438,5 +438,17 @@
   <project name="lownoise2/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="cm-11.0" />
   <project name="lownoise2/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-11.0" />
   <project name="lownoise2/hostap" path="platform/external/wpa_supplicant_8_ti" remote="github" revision="endeavoru" />
+
+<!-- cm repos -->
+  <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_ti_wlan" path="hardware/ti/wlan" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-11.0" />
+
+<!-- Koush repos -->
+   <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+
 </manifest>
 
