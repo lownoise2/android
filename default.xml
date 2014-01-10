@@ -434,7 +434,7 @@
 
 <!-- b2aosp repos -->
 
-  <project name="lownoise2/android" path="android" remote="github" revision="master" />
+  <project name="lownoise2/android" path="android" remote="github" revision="b2aosp" />
   <project name="lownoise2/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="cm-11.0" />
   <project name="lownoise2/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-11.0" />
   <project name="lownoise2/hostap" path="platform/external/wpa_supplicant_8_ti" remote="github" revision="endeavoru" />
