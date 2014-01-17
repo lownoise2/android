@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="kitkat-release"
+  <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -437,11 +437,13 @@
   <project name="lownoise2/android" path="android" remote="github" revision="b2aosp" />
   <project name="lownoise2/android_device_htc_endeavoru" path="device/htc/endeavoru" remote="github" revision="b2aosp" />
   <project name="lownoise2/android_device_htc_tegra3-common" path="device/htc/tegra3-common" remote="github" revision="cm-11.0" />
-  <project name="lownoise2/hostap" path="platform/external/wpa_supplicant_8_ti" remote="github" revision="endeavoru" />
+  <project name="lownoise2/hostap" path="platform/external/wpa_supplicant_8_ti" remote="github" revision="android4.4_ti" />
   <project name="lownoise2/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="b2aosp" />
   <project name="lownoise2/android_system_core" path="system/core" revision="b2aosp" remote="github" groups="pdk" />
   <project name="lownoise2/android_system_extras" path="system/extras" revision="b2aosp" remote="github" groups="pdk" />
   <project name="lownoise2/android_frameworks_native" path="frameworks/native" revision="b2aosp" remote="github" groups="pdk" />
+  <project name="lownoise2/android_vendor_b2aosp" path="vendor/b2aosp" remote="github" revision="master" />
+  <project name="lownoise2/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
 
 <!-- cm repos -->
   <project name="CyanogenMod/android_external_busybox" path="external/busybox" remote="github" revision="cm-11.0" />
