@@ -451,10 +451,8 @@
   <project name="CyanogenMod/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_htc_endeavoru" path="kernel/htc/endeavoru" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-11.0" />
-
-<!-- Koush repos -->
-   <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
+  <project name="CyanogenMod/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
+  <project name="CyanogenMod/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
 
 </manifest>
 
