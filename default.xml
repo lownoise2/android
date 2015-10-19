@@ -6,6 +6,8 @@
   <default revision="refs/tags/android-6.0.0_r1"
            remote="aosp"
            sync-j="4" />
+  <remote name="github"
+          fetch="https://github.com/" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -474,5 +476,10 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+<!-- b2aosp repos -->
+
+  <project name="lownoise2/android" path="android" remote="github" revision="mm60" />
+  <project name="lownoise2/android" path="android_vendor_b2aosp" path="vendor/b2aosp" remote="github" revision="mm60" />
 
 </manifest>
