@@ -481,5 +481,7 @@
 
   <project name="lownoise2/android" path="android" remote="github" revision="mm60" />
   <project name="lownoise2/android_vendor_b2aosp" path="vendor/b2aosp" remote="github" revision="mm60" />
-
+<!-- CyanogenMod Repos -->
+  <project name="CyanogenMod/android_packages_apps_CMFileManager" path="packages/apps/CMFileManager" remote="github" revision="cm-13.0" /> 
+  <project name="android_external_cyanogen_UICommon" path="external/uicommon" remote="github" revision="cm-13.0" /> 
 </manifest>
